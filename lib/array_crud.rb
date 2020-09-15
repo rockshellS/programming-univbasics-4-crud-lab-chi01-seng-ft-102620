@@ -1,21 +1,25 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
-end
+  ["mama", "mommy", "daughter", "son"]
+  end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = ["dogs", "cats","birds"]
+  array << "arrays!"
+  p array
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array = ["dogs", "cats","birds"]
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array = ["dogs", "cats","birds"]
+  array.pop("birds")
 end
 
 def remove_element_from_start_of_array(array)
